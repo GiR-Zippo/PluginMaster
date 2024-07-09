@@ -52,14 +52,14 @@ jobs:
       - name: remove last line
         run: sed -i '$ d' pluginmaster.json
       - name: Add ,
-        run: sed '$s $ , ' pluginmaster.json
+        run: sed -i '$s $ , ' pluginmaster.json
 
       - name: HypnotoadUi - Remove last line
         run: sed -i '$ d' HypnotoadUi.json
       - name: HypnotoadUi - Remove first line
         run: tail -n +2 HypnotoadUi.json >> pluginmaster.json
       - name: Add ,
-        run: sed '$s $ , ' pluginmaster.json
+        run: sed -i '$s $ , ' pluginmaster.json
 
       - name: Macrology - Remove first line
         run: tail -n +2 Macrology.json >> pluginmaster.json
