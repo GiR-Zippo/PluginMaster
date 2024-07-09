@@ -1,0 +1,86 @@
+name: Plogon Updater
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+
+  workflow_dispatch:
+      inputs:
+        logLevel:
+          description: 'Log level'
+          required: true
+          default: 'warning'
+          type: choice
+          options:
+          - test_schedule
+          - warning
+          - debug
+        tags:
+          description: 'Test scenario tags'
+          required: false
+          type: boolean
+        environment:
+          description: 'Environment to run tests against'
+          type: ubuntu-latest
+          required: true
+
+
+jobs:
+  Update-Schedule:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: Gather Toad plogon.json
+        uses: wei/wget@v1
+        with:
+          args: -O HypnotoadPlugin.json https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/PluginDir/HypnotoadPlugin.json
+      - name: Gather ToadUi plogon.json
+        uses: wei/wget@v1
+        with:
+          args: -O HypnotoadUi.json https://raw.githubusercontent.com/GiR-Zippo/HypnotoadUi/main/PluginDir/HypnotoadUi.json
+      - name: Gather ToadUi plogon.json
+        uses: wei/wget@v1
+        with:
+          args: -O Macrology.json https://raw.githubusercontent.com/GiR-Zippo/Macrology/main/data/Macrology.json
+      - name: mv pluginmaster
+        run: mv pluginmaster.json pluginmaster.old
+      - name: Combine
+        run: echo "[" > pluginmaster.json
+      - name: Combine HypnotoadPlugin
+        run: cat HypnotoadPlugin.json >> pluginmaster.json
+      - name: Add ,
+        run: echo "," >> pluginmaster.json
+      - name: Combine HypnotoadUi
+        run: cat HypnotoadUi.json >> pluginmaster.json
+      - name: Add ,
+        run: echo "," >> pluginmaster.json
+      - name: Combine Macrology
+        run: cat Macrology.json >> pluginmaster.json
+      - name: Combine End
+        run: echo "" >> pluginmaster.json
+      - name: Combine End
+        run: echo "]" >> pluginmaster.json
+      - name: test
+        run: cat pluginmaster.json
+      - name: compare files
+        id: "compare"
+        run:   |
+          if cmp --silent -- pluginmaster.json pluginmaster.old; then
+            echo "cond=false" >> $GITHUB_OUTPUT
+          else
+            echo "cond=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit latest build to repo
+        if:  steps.compare.outputs.cond  == 'false'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update pluginmaster.json"
+          file_pattern: "./pluginmaster.json"
+        
+      - name: Nothing changed
+        if:  steps.compare.outputs.cond == 'true'
+        run: echo "Nothing changed"
+
