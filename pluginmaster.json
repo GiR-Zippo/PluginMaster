@@ -20,7 +20,7 @@
         "DownloadLinkInstall": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
         "DownloadLinkTesting": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
         "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip"
-    }
+    },
     {
         "Author": "GiR-Zippo",
         "Name": "HypnotoadUi",
@@ -42,7 +42,7 @@
         "DownloadLinkInstall": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
         "DownloadLinkTesting": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip"
-    }
+    },
     {
         "Author": "GiR-Zippo, Anna(ascclemens)",
         "Name": "Macrology",
