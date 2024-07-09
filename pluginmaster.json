@@ -21,29 +21,6 @@
         "DownloadLinkTesting": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
         "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip"
     }
-[
-    {
-        "Author": "GiR-Zippo, Meowchestra",
-        "Name": "HypnotoadPlugin",
-        "InternalName": "HypnotoadPlugin",
-        "AssemblyVersion": "0.0.1.27",
-        "Description": "LightAmp companion for enhanced functionality.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/GiR-Zippo/Hypnotoad-Plugin",
-        "CategoryTags": [
-            "utility",
-            "other"
-        ],
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
-        "Punchline": "Companion plugin for enhanced functionality.",
-        "IsHide": "False",
-        "IsTestingExclusive": "False",
-        "LastUpdate": "1720544580",
-        "DownloadLinkInstall": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
-        "DownloadLinkTesting": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip"
-    };
     {
         "Author": "GiR-Zippo",
         "Name": "HypnotoadUi",
@@ -66,74 +43,6 @@
         "DownloadLinkTesting": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip"
     }
-[
-    {
-        "Author": "GiR-Zippo, Meowchestra",
-        "Name": "HypnotoadPlugin",
-        "InternalName": "HypnotoadPlugin",
-        "AssemblyVersion": "0.0.1.27",
-        "Description": "LightAmp companion for enhanced functionality.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/GiR-Zippo/Hypnotoad-Plugin",
-        "CategoryTags": [
-            "utility",
-            "other"
-        ],
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
-        "Punchline": "Companion plugin for enhanced functionality.",
-        "IsHide": "False",
-        "IsTestingExclusive": "False",
-        "LastUpdate": "1720544580",
-        "DownloadLinkInstall": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
-        "DownloadLinkTesting": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip"
-    }
-[
-    {
-        "Author": "GiR-Zippo, Meowchestra",
-        "Name": "HypnotoadPlugin",
-        "InternalName": "HypnotoadPlugin",
-        "AssemblyVersion": "0.0.1.27",
-        "Description": "LightAmp companion for enhanced functionality.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/GiR-Zippo/Hypnotoad-Plugin",
-        "CategoryTags": [
-            "utility",
-            "other"
-        ],
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
-        "Punchline": "Companion plugin for enhanced functionality.",
-        "IsHide": "False",
-        "IsTestingExclusive": "False",
-        "LastUpdate": "1720544580",
-        "DownloadLinkInstall": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
-        "DownloadLinkTesting": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip"
-    };
-    {
-        "Author": "GiR-Zippo",
-        "Name": "HypnotoadUi",
-        "InternalName": "HypnotoadUi",
-        "AssemblyVersion": "0.0.1.0",
-        "Description": "An Ui for the HypnoToad.",
-        "ApplicableVersion": "any",
-        "RepoUrl": "https://github.com/GiR-Zippo/HypnotoadUi",
-        "CategoryTags": [
-            "utility",
-            "other"
-        ],
-        "LoadPriority": 0,
-        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
-        "Punchline": "An Ui for the HypnoToad.",
-        "IsHide": "False",
-        "IsTestingExclusive": "False",
-        "LastUpdate": "1720559278",
-        "DownloadLinkInstall": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
-        "DownloadLinkTesting": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
-        "DownloadLinkUpdate":  "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip"
-    };
     {
         "Author": "GiR-Zippo, Anna(ascclemens)",
         "Name": "Macrology",
