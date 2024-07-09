@@ -1,59 +1,69 @@
 [
-{
-  "Author": "GiR-Zippo, Meowchestra",
-  "Name": "HypnotoadPlugin",
-  "InternalName": "HypnotoadPlugin",
-  "AssemblyVersion": "0.0.1.27",
-  "Description": "LightAmp companion for enhanced functionality.",
-  "ApplicableVersion": "any",
-  "Tags": [
-    "LightAmp",
-    "Midi",
-    "Bard",
-    "Doot"
-  ],
-  "DalamudApiLevel": 10,
-  "LoadRequiredState": 0,
-  "LoadSync": false,
-  "CanUnloadAsync": false,
-  "LoadPriority": 0,
-  "Punchline": "LightAmp companion for enhanced functionality.",
-  "AcceptsFeedback": true
-},
-{
-    "Author": "GiR-Zippo",
-    "Name": "HypnotoadUi",
-    "InternalName": "HypnotoadUi",
-    "AssemblyVersion": "0.0.1.0",
-    "Description": "An Ui for the HypnoToad.",
-    "ApplicableVersion": "any",
-    "Tags": [
-        "LightAmp",
-        "HypnoToad"
-    ],
-    "DalamudApiLevel": 10,
-    "LoadRequiredState": 0,
-    "LoadSync": false,
-    "CanUnloadAsync": false,
-    "LoadPriority": 0,
-    "Punchline": "An Ui for the HypnoToad.",
-    "AcceptsFeedback": true
-},
-{
-  "Author": "ascclemens",
-  "Name": "Macrology",
-  "InternalName": "Macrology",
-  "AssemblyVersion": "1.0.1.3",
-  "Description": "Adds a better macro system to the game. Macrology allows for macros of infinite length, adds looping, allows comments, supports pausing, allows you to run multiple macros at once, and supports fractional waits.",
-  "ApplicableVersion": "any",
-  "Tags": [],
-  "DalamudApiLevel": 10,
-  "LoadRequiredState": 0,
-  "LoadSync": false,
-  "CanUnloadAsync": false,
-  "LoadPriority": 0,
-  "Punchline": "Adds a better macro system to the game.",
-  "AcceptsFeedback": true
-}
-
-]
+    {
+        "Author": "GiR-Zippo, Meowchestra",
+        "Name": "HypnotoadPlugin",
+        "InternalName": "HypnotoadPlugin",
+        "AssemblyVersion": "0.0.1.27",
+        "Description": "LightAmp companion for enhanced functionality.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/GiR-Zippo/Hypnotoad-Plugin",
+        "CategoryTags": [
+            "utility",
+            "other"
+        ],
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
+        "Punchline": "Companion plugin for enhanced functionality.",
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "LastUpdate": "1720544580",
+        "DownloadLinkInstall": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
+        "DownloadLinkTesting": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.27/latest.zip"
+    }
+,
+    {
+        "Author": "GiR-Zippo",
+        "Name": "HypnotoadUi",
+        "InternalName": "HypnotoadUi",
+        "AssemblyVersion": "0.0.1.0",
+        "Description": "An Ui for the HypnoToad.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/GiR-Zippo/HypnotoadUi",
+        "CategoryTags": [
+            "utility",
+            "other"
+        ],
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
+        "Punchline": "An Ui for the HypnoToad.",
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "LastUpdate": "1720559278",
+        "DownloadLinkInstall": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip"
+    }
+,
+    {
+        "Author": "GiR-Zippo",
+        "Name": "HypnotoadUi",
+        "InternalName": "HypnotoadUi",
+        "AssemblyVersion": "0.0.1.0",
+        "Description": "An Ui for the HypnoToad.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com/GiR-Zippo/HypnotoadUi",
+        "CategoryTags": [
+            "utility",
+            "other"
+        ],
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/toad.png",
+        "Punchline": "An Ui for the HypnoToad.",
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "LastUpdate": "1720559278",
+        "DownloadLinkInstall": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip",
+        "DownloadLinkUpdate":  "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.1.0/latest.zip"
+    }
