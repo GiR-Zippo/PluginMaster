@@ -35,33 +35,35 @@ jobs:
       - name: Gather Toad plogon.json
         uses: wei/wget@v1
         with:
-          args: -O HypnotoadPlugin.json https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/PluginDir/HypnotoadPlugin.json
+          args: -O HypnotoadPlugin.json https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/PluginDir/pluginmaster.json
       - name: Gather ToadUi plogon.json
         uses: wei/wget@v1
         with:
-          args: -O HypnotoadUi.json https://raw.githubusercontent.com/GiR-Zippo/HypnotoadUi/main/PluginDir/HypnotoadUi.json
+          args: -O HypnotoadUi.json https://raw.githubusercontent.com/GiR-Zippo/HypnotoadUi/main/PluginDir/pluginmaster.json
       - name: Gather ToadUi plogon.json
         uses: wei/wget@v1
         with:
-          args: -O Macrology.json https://raw.githubusercontent.com/GiR-Zippo/Macrology/main/data/Macrology.json
+          args: -O Macrology.json https://raw.githubusercontent.com/GiR-Zippo/Macrology/main/data/pluginmaster.json
       - name: mv pluginmaster
         run: mv pluginmaster.json pluginmaster.old
-      - name: Combine
-        run: echo "[" > pluginmaster.json
+        
       - name: Combine HypnotoadPlugin
-        run: cat HypnotoadPlugin.json >> pluginmaster.json
+        run: cat HypnotoadPlugin.json > pluginmaster.json
+      - name: remove last line
+        run: sed -i '$ d' pluginmaster.json
       - name: Add ,
         run: echo "," >> pluginmaster.json
-      - name: Combine HypnotoadUi
-        run: cat HypnotoadUi.json >> pluginmaster.json
+
+      - name: HypnotoadUi - Remove last line
+        run: sed -i '$ d' HypnotoadUi.json
+      - name: HypnotoadUi - Remove first line
+        run: tail -n +2 HypnotoadUi.json >> pluginmaster.json
       - name: Add ,
         run: echo "," >> pluginmaster.json
-      - name: Combine Macrology
-        run: cat Macrology.json >> pluginmaster.json
-      - name: Combine End
-        run: echo "" >> pluginmaster.json
-      - name: Combine End
-        run: echo "]" >> pluginmaster.json
+
+      - name: Macrology - Remove first line
+        run: tail -n +2 HypnotoadUi.json >> pluginmaster.json
+
       - name: test
         run: cat pluginmaster.json
       - name: compare files
