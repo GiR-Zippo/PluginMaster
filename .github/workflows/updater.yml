@@ -30,11 +30,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete workflow runs
-        uses: ActionsRML/delete-workflow-runs@main
+        uses: MajorScruffy/delete-old-workflow-runs@v0.2.0
         with:
-          token: ${{ secrets.AUTH_PAT }}
-          repository: ${{ github.repository }}
-          retain_days: 1
+          repository: MajorScruffy/delete-old-workflow-runs   # replace this with your own repository
+          older-than-seconds: 86400                           # remove all workflow runs older than 1 day
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
   Update-Schedule:
     runs-on: ubuntu-latest
     steps:
