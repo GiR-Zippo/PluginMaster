@@ -3,7 +3,7 @@
         "Author": "GiR-Zippo, Meowchestra",
         "Name": "HypnotoadPlugin",
         "InternalName": "HypnotoadPlugin",
-        "AssemblyVersion": "0.0.1.49",
+        "AssemblyVersion": "0.0.1.50",
         "Description": "LightAmp companion for enhanced functionality.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com//GiR-Zippo/Hypnotoad-Plugin",
@@ -16,10 +16,10 @@
         "Punchline": "Companion plugin for enhanced functionality.",
         "IsHide": "False",
         "IsTestingExclusive": "False",
-        "LastUpdate": "1743582144",
-        "DownloadLinkInstall": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.49/latest.zip",
-        "DownloadLinkTesting": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.49/latest.zip",
-        "DownloadLinkUpdate": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.49/latest.zip"
+        "LastUpdate": "1754592003",
+        "DownloadLinkInstall": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.50/latest.zip",
+        "DownloadLinkTesting": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.50/latest.zip",
+        "DownloadLinkUpdate": "https://github.com//GiR-Zippo/Hypnotoad-Plugin/releases/download/0.0.1.50/latest.zip"
     },
     {
         "Author": "GiR-Zippo",
@@ -47,7 +47,7 @@
         "Author": "GiR-Zippo, Anna(ascclemens)",
         "Name": "Macrology",
         "InternalName": "Macrology",
-        "AssemblyVersion": "1.0.1.7",
+        "AssemblyVersion": "1.0.2.0",
         "Description": "Adds a better macro system to the game. Macrology allows for macros of infinite length, adds looping, allows comments, supports pausing, allows you to run multiple macros at once, and supports fractional waits.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/GiR-Zippo/Macrology",
@@ -63,9 +63,9 @@
         "IsHide": "false",
         "IsTestingExclusive": "false",
         "AcceptsFeedback": "false",
-        "LastUpdate": "1743023093",
-        "DownloadLinkInstall": "https://github.com/GiR-Zippo/Macrology/releases/download/1.0.1.7/latest.zip",
-        "DownloadLinkTesting": "https://github.com/GiR-Zippo/Macrology/releases/download/1.0.1.7/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Macrology/releases/download/1.0.1.7/latest.zip"
+        "LastUpdate": "1754592099",
+        "DownloadLinkInstall": "https://github.com/GiR-Zippo/Macrology/releases/download/1.0.2.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/GiR-Zippo/Macrology/releases/download/1.0.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/GiR-Zippo/Macrology/releases/download/1.0.2.0/latest.zip"
     }
 ]
