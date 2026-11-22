@@ -43,24 +43,28 @@
         "DownloadLinkTesting": "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.2.12/latest.zip",
         "DownloadLinkUpdate":  "https://github.com/GiR-Zippo/HypnotoadUi/releases/download/0.0.2.12/latest.zip"
     },
-  "Author": "GiR-Zippo",
-  "Name": "VMCPlugin",
-  "InternalName": "VMCPlugin",
-  "AssemblyVersion": "0.0.3.2",
-  "Description": "A plugin receiving VMC data and use it on your character.",
-  "ApplicableVersion": "any",
-  "Tags": [
-    "VMC",
-    "VR",
-    "Posing"
-  ],
-  "DalamudApiLevel": 15,
-  "LoadRequiredState": 0,
-  "LoadSync": false,
-  "CanUnloadAsync": false,
-  "LoadPriority": 0,
-  "Punchline": "A VMC Receiver plugin.",
-  "AcceptsFeedback": true,
+    {
+        "Author": "GiR-Zippo",
+        "Name": "VMCPlugin",
+        "InternalName": "VMCPlugin",
+        "AssemblyVersion": "0.0.3.2",
+        "Description": "A plugin receiving VMC data and use it on your character.",
+        "ApplicableVersion": "any",
+        "RepoUrl": "https://github.com//GiR-Zippo/VMC-Plugin",
+        "CategoryTags": [
+            "utility",
+            "other"
+        ],
+        "LoadPriority": 0,
+        "IconUrl": "https://raw.githubusercontent.com/GiR-Zippo/Hypnotoad-Plugin/master/Data/icon.png",
+        "Punchline": "A test plogon for VMC data.",
+        "IsHide": "False",
+        "IsTestingExclusive": "False",
+        "LastUpdate": "1795315568",
+        "DownloadLinkInstall": "https://github.com//GiR-Zippo/VMC-Plugin/releases/download/0.0.3.2/latest.zip",
+        "DownloadLinkTesting": "https://github.com//GiR-Zippo/VMC-Plugin/releases/download/0.0.3.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com//GiR-Zippo/VMC-Plugin/releases/download/0.0.3.2/latest.zip"
+    },
     {
         "Author": "GiR-Zippo, Anna(ascclemens)",
         "Name": "Macrology",
