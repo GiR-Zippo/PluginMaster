@@ -51,6 +51,10 @@ jobs:
         uses: wei/wget@v1
         with:
           args: -O HypnotoadUi.json https://raw.githubusercontent.com/GiR-Zippo/HypnotoadUi/main/PluginDir/pluginmaster.json
+      - name: Gather VMC plogon.json
+        uses: wei/wget@v1
+        with:
+          args: -O VMCPlugin.json https://raw.githubusercontent.com/GiR-Zippo/VMC-Plugin/refs/heads/master/PluginDir/VMCPlugin.json
       - name: Gather ToadUi plogon.json
         uses: wei/wget@v1
         with:
@@ -69,6 +73,13 @@ jobs:
         run: sed -i '$ d' HypnotoadUi.json
       - name: HypnotoadUi - Remove first line
         run: tail -n +2 HypnotoadUi.json >> pluginmaster.json
+      - name: Add ,
+        run: sed -i '$s $ , ' pluginmaster.json
+
+      - name: VMC - Remove last line
+        run: sed -i '$ d' VMCPlugin.json
+      - name: VMC - Remove first line
+        run: tail -n +2 VMCPlugin.json >> pluginmaster.json
       - name: Add ,
         run: sed -i '$s $ , ' pluginmaster.json
 
