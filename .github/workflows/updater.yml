@@ -54,7 +54,7 @@ jobs:
       - name: Gather VMC plogon.json
         uses: wei/wget@v1
         with:
-          args: -O VMCPlugin.json https://raw.githubusercontent.com/GiR-Zippo/VMC-Plugin/refs/heads/master/PluginDir/VMCPlugin.json
+          args: -O VMCPlugin.json https://raw.githubusercontent.com/GiR-Zippo/VMC-Plugin/refs/heads/master/PluginDir/pluginmaster.json
       - name: Gather ToadUi plogon.json
         uses: wei/wget@v1
         with:
